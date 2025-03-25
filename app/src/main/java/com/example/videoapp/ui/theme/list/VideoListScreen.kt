@@ -35,7 +35,7 @@ fun VideoListScreen(viewModel: VideoViewModel = hiltViewModel(), navController: 
     val videos by viewModel.videos.observeAsState(Result.Loading)
     val isRefreshing by viewModel.isRefreshing.observeAsState(false)
 
-    val apiKey = "AIzaSyA_PpzXWYQ9PnC6M2qhL7ongj8OZw1o7EM"
+    val apiKey = "###"
     val query = "subaru car"
     // Загружаем видео при первом запуске экрана
     LaunchedEffect(Unit) {
